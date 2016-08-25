@@ -1,0 +1,77 @@
+// color: #F7F7ED;
+// color: #6F7072;
+// color: #F78F20;
+//////////////////////////
+body {
+    background-image: image();
+}
+.jumbotron {
+    padding: 0;
+    margin: 0;
+    color: #1b1b1b;
+    background-color: #F7F7ED;
+    h1 {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        font-size: 10em;
+    }
+}
+.shortcuts {
+    position: fixed;
+    float: left;
+    margin-left: 2em;
+    height: 100px;
+    background-color: lightblue;
+}
+.info-container {
+    text-align: center;
+    padding: 2%;
+    float: right;
+    // margin-right: 2em;
+    // margin-left: 2em;
+    background-color: lightgreen;
+}
+.projects {
+    margin: auto;
+    padding: 1%;
+    margin-bottom: 2%;
+    width: 90%;
+    height: 300px;
+    border-radius: 5px;
+    background-color: white;
+    li {
+        margin: 1%;
+        text-align: center;
+        width: 100%;
+        height: 200%;
+        border-radius: 3%;
+    }
+}
+.about {
+  margin: auto;
+  margin-bottom: 2%;
+  padding: 1%;
+  width: 90%;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  img {
+    float: left;
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+.contact {
+  margin: auto;
+  margin-bottom: 2%;
+  padding: 1%;
+  width: 90%;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+
+}
+.unslider-nav {
+    display: none;
+}
