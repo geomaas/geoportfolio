@@ -1,10 +1,10 @@
-let port = angular.module('PortfolioControllers');
+var mod = angular.module('PortfolioControllers');
 
-port.controller('HomeController', ['$scope', function($scope) {
-    let jq = $.noConflict();
+mod.controller('HomeController', ['$scope', function($scope) {
+    var jq = $.noConflict();
 
-    jq('.projects').unslider({
-      // autoplay: true
-    });
+    // jq('.projects').unslider({
+    //   // autoplay: true
+    // });
 
 }]);

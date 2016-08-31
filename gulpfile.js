@@ -30,12 +30,12 @@ gulp.task('js', function () {
         .pipe(gulp.dest('./public/js'))
 });
 
-// gulp.task('deploy', [], function() {
-//     return surge({
-//         project: '../public', // Path to your static build directory
-//         domain: // Your domain or Surge subdomain
-//     })
-// });
+gulp.task('deploy', [], function() {
+    return surge({
+        project: './public', // Path to your static build directory
+        domain: 'sable-front.surge.sh',
+    })
+});
 
 gulp.task('watch', function () {
     gulp.watch('./js/*.js', ['js']);

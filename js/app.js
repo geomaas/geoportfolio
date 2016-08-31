@@ -1,4 +1,4 @@
-let app = angular.module('PortfolioApp', ['ngRoute', 'PortfolioControllers']);
+var app = angular.module('PortfolioApp', ['ngRoute', 'PortfolioControllers']);
 angular.module('PortfolioControllers', []);       // create empty module
 // angular.module('LibraryServices', []);          // create empty module
 // angular.module('LibraryDirectives', []);        // create empty module
